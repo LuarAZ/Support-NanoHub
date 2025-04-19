@@ -1,3 +1,7 @@
+Notify = require(game.ReplicatedStorage:WaitForChild("Notification"))
+Notify.new("<Color=Yelloe>Vzeo X Hub<Color=/>"):Display()
+wait(0.1)
+Notify.new("<Color=Yellow>Dev: Vzeo<Color=/>"):Display()
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
@@ -1330,30 +1334,30 @@ UICorner.Parent = ImageButton
 print("--[[Loaded UI]]--")
 Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/NPC-Q8/khglmrua/main/Fluent/Fluent.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "Vzeo Hub - Blox Fruits",
-    SubTitle = "By Gia Bảo",
+    Title = "Vzeo X Hub - Blox Fruits",
+    SubTitle = "by Vzeo",
     TabWidth = 155,
     Size = UDim2.fromOffset(555, 320),
-    Acrylic = false, 
+    Acrylic = false,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl 
 })
-Shop = Window:AddTab({ Title = "Shop", Icon = "" })
-Server = Window:AddTab({ Title = "Status Server", Icon = "" })
-LGa = Window:AddTab({ Title = "Local Player", Icon = "" })
-Tele = Window:AddTab({ Title = "Travel", Icon = "" })
-Settings = Window:AddTab({ Title = "Setting Farm", Icon = "" })
-Main = Window:AddTab({ Title = "Main Farm", Icon = "" })
-Stack = Window:AddTab({ Title = "Stack Farm", Icon = "" })
-Sub = Window:AddTab({ Title = "Sub Farming", Icon = "" })
-Fruit = Window:AddTab({ Title = "Fruit", Icon = "" })
-Raid = Window:AddTab({ Title = "Raid", Icon = "" })
-Sea = Window:AddTab({ Title = "Sea Event", Icon = "" })
-Volcanic = Window:AddTab({ Title = "Volcanic Event", Icon = "" })
-Race = Window:AddTab({ Title = "Upgrade Race", Icon = "" })
-Get = Window:AddTab({ Title = "Get Items", Icon = "" })
-ESP = Window:AddTab({ Title = "ESP", Icon = "" })
-PVP = Window:AddTab({ Title = "PVP", Icon = "" })
+Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" })
+Server = Window:AddTab({ Title = "Status Server", Icon = "activity" })
+LGa = Window:AddTab({ Title = "Local Player", Icon = "user" })
+Tele = Window:AddTab({ Title = "Travel", Icon = "mountain-snow" })
+Settings = Window:AddTab({ Title = "Setting Farm", Icon = "settings" })
+Main = Window:AddTab({ Title = "Main Farm", Icon = "home" })
+Stack = Window:AddTab({ Title = "Stack Farm", Icon = "crown" })
+Sub = Window:AddTab({ Title = "Sub Farming", Icon = "gem" })
+Fruit = Window:AddTab({ Title = "Fruit", Icon = "apple" })
+Raid = Window:AddTab({ Title = "Raid", Icon = "sun" })
+Sea = Window:AddTab({ Title = "Sea Event", Icon = "waves" })
+Volcanic = Window:AddTab({ Title = "Volcanic Event", Icon = "flame" })
+Race = Window:AddTab({ Title = "Upgrade Race", Icon = "clock" })
+Get = Window:AddTab({ Title = "Get Items", Icon = "archive" })
+ESP = Window:AddTab({ Title = "ESP", Icon = "film" })
+PVP = Window:AddTab({ Title = "PVP", Icon = "swords" })
 sex = {
     "WildDares",
     "BossBuild",
